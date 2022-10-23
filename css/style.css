@@ -1,0 +1,410 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+
+
+*{
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+
+/*navbar */
+.navbar {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    margin-top: 20px;
+}
+.navbar-default {
+    background-color:white;
+    border-color: white;
+}
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 28px;
+}
+.navbar-right {
+    float: right!important;
+    margin-right: 31px;
+}
+.navbar-nav {
+    margin: 8px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #b9e9b9;
+    background-color: #e7e7e7;
+    font-size: 26px;
+    border-radius: 4px;
+    border-bottom: 1px solid black;
+}
+.nav>li {
+    position: relative;
+    display: block;
+    font-size:large;
+    margin: 10px;
+}
+.nav>li:hover {
+    color: #b9e9b9;
+    background-color: #e7e7e7;
+    border-radius: 4px;
+    border-bottom: 1px solid black;
+}
+
+.nav>li.active:hover {
+    border-bottom: 0px solid black;
+}
+
+.navbar-nav>li>a {
+    padding-top: 23px;
+    padding-bottom: 15px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #b9e9b9;
+}
+
+/* carousel */
+.carousel{
+    width: 100%;
+    max-height: 900px;
+
+    background-image: url(../img/bg.png);
+    background-color: #b9e9b9;
+   
+}
+/* review */
+.carousel-control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
+    filter: alpha(opacity=50);
+   background-color: transparent;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 8%;
+}
+.carousel-inner .item  h2 {
+   padding-top : 8px;
+
+
+}
+.carousel-inner  p ,button {
+    margin-top: 24px;
+    }
+.carousel-inner {
+    color: white;
+}
+.carousel-inner h2 {
+font-size:50px;
+}
+.carousel-inner  p  {
+    font-size:20px;
+    }
+    .carousel-inner button {
+        font-size:30px;
+       background-color: transparent;
+       border: #fff solid 1px;
+       border-radius: 4px;
+       margin-bottom :100px;
+
+        }
+        .carousel-inner button:hover {
+           background-color: #b9e9b9;
+           color:#fff
+            }
+.section2{
+    text-align: center;
+    margin-top: 50px;
+}
+.section2 i, .section2 h2{
+    color: #49CBCD;
+}
+.section2 i{
+    margin-top: 50px;
+}
+.section2 i{
+    border:1px solid #49CBCD;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    padding:15px;
+    font-size:45px
+}
+.section2 button{
+    color: white;
+    background-color:#49CBCD;
+    border-radius: 4px;
+    border-color: transparent;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: -5px;
+
+}
+.section2 button:hover{
+   
+    background-color:#1c7779;
+}
+
+.Portfolio{
+    text-align: center;
+    margin-top: 50px;
+    background-color: #eee;
+    padding-bottom: 30px;
+}
+.Portfolio h2{
+    font-size: 40px;
+    margin-top: 40px;
+}
+.Portfolio img{
+    margin-top: 40px;
+   border-radius:4px;
+   -webkit-border-radius:4px;
+   -moz-border-radius:4px;
+   -ms-border-radius:4px;
+   -o-border-radius:4px;
+}
+.Portfolio button{
+    margin-top: 40px;
+    border-color: transparent;
+   border-radius:4px;
+   -webkit-border-radius:4px;
+   -moz-border-radius:4px;
+   -ms-border-radius:4px;
+   -o-border-radius:4px;
+   background-color: #49CBCD;
+   padding: 12px;
+   font-size:25px;
+   color: #fff
+   
+}
+.Portfolio button:hover{
+   
+   background-color: #17595a;
+   
+   
+}
+.team{
+    text-align: center;
+    margin-top: 50px;
+}
+.team img{
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+}
+
+.team h2 {
+   color: #49CBCD;
+   line-height: 59px;
+}
+.team #title {
+    color: black;
+    margin-bottom: 50px;
+ }
+.team h5{
+    color: #4E525D;
+ }
+.price{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color:#e7e7e7;
+    text-align: center;
+    padding-left: 30px;
+}
+.price table{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    width: 85%;
+   
+}
+.price table th{
+    text-align: center;
+    margin: 20px;
+    font-size:40px;
+    background-color:#485460;
+    color: white;
+
+   
+}
+.price table tr {
+    font-size:20px;
+    background-color:white;
+    color: #838383;}
+.price table #tr{
+    font-size:30px;
+    background-color:white;
+    color: black; 
+}
+.price table button{
+   font-size:20px;
+   border-radius:4px ;
+   -webkit-border-radius:7px ;
+   -moz-border-radius:4px ;
+   -ms-border-radius:4px ;
+   -o-border-radius:4px ;
+   border-color: #fff;
+   color:white;
+   background-color:#788492;
+   margin: 10px;
+   padding: 10px
+}
+.price table:hover{
+   
+    transform: scale(1.2,1.2);
+   -webkit-transform: scale(10px );
+   -moz-transform: scale( 10px);
+   -ms-transform: scale( 10px);
+   -o-transform: scale( 10px);
+
+}
+.price table:hover th ,.price table:hover button{
+   background-color:#49CBCD;
+ }
+.price table tr:hover{
+    color: #b9e9b9;
+ }
+
+ .clients{
+     text-align:center;
+     margin-top : 60px;
+ }
+ .clients h2{
+   font-size:40px;
+   padding : 20px
+}
+.clients p{
+    font-size:20px;
+    padding : 20px;
+    opacity:0.8;    
+
+ }
+ .clients span{
+    font-size:20px;
+    padding : 20px;
+    color:#17595a;
+ }
+ .clients span:hover{
+    font-size:21px;
+    padding : 20px;
+    opacity:0.5;
+ }
+ .clients i{
+    font-size:30px;
+    line-height: 14;
+ }
+ .clients i:hover{
+    opacity:0.8;
+ }
+
+ /* contact */
+
+ section#contact {
+    background-color: #212529;
+    background-image: url("../assets/img/map-image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+section#contact .section-heading {
+    color: #fff;
+}
+
+section#contact form#contactForm .form-group {
+    margin-bottom: 1.5rem;
+}
+
+section#contact form#contactForm .form-group input,
+section#contact form#contactForm .form-group textarea {
+    padding: 1.25rem;
+}
+
+section#contact form#contactForm .form-group input.form-control {
+    height: auto;
+}
+
+section#contact form#contactForm .form-group-textarea {
+    height: 100%;
+}
+
+section#contact form#contactForm .form-group-textarea textarea {
+    height: 100%;
+    min-height: 10rem;
+}
+
+section#contact form#contactForm p.help-block {
+    margin: 0;
+}
+
+section#contact form#contactForm .form-control:focus {
+    border-color: #fed136;
+    box-shadow: none;
+}
+
+section#contact form#contactForm ::-webkit-input-placeholder {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    color: #ced4da;
+}
+
+section#contact form#contactForm :-moz-placeholder {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    color: #ced4da;
+}
+
+section#contact form#contactForm ::-moz-placeholder {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    color: #ced4da;
+}
+
+section#contact form#contactForm :-ms-input-placeholder {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    color: #ced4da;
+}
+
+
+ @keyframes displayText{
+0%{}
+60%{}
+100%{}
+
+ }
+@media(max-width:767px) {
+    
+}
+@media(max-width:767px) {
+    
+}
+@media(max-width:767px) {
+    
+}
